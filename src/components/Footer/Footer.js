@@ -5,7 +5,7 @@ const Footer = () => {
 		<>
 			<div className="bg-gray-800">
 				<div className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:py-20">
-					<div className="pt-10 flex flex-col xl:flex-row justify-between">
+					<div className="pt-10 flex flex-col xl:flex-row justify-between gap-10">
 						<div className="flex flex-col md:gap-10">
 							<div className="flex items-start w-full">
 								<div className="pb-10 md:pb-0">
