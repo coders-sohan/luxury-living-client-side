@@ -1,0 +1,15 @@
+.hero-img {
+    height: auto;
+}
+
+@media (min-width: 768px) {
+	.hero-img {
+		height: 300px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.hero-img {
+		height: 500px;
+	}
+}
