@@ -10,7 +10,7 @@ const Navbar = () => {
 				<div className="container px-4 md:px:14 lg:px-24 py-3 mx-auto">
 					<div className="relative flex items-center justify-between">
 						<NavLink
-							to="/"
+							to="/home"
 							aria-label="Luxury Living"
 							title="Luxury Living"
 							className="inline-flex items-center"
@@ -68,7 +68,7 @@ const Navbar = () => {
 							</li>
 							<li>
 								<NavLink
-									to="/"
+									to="/home"
 									aria-label="Get in touch"
 									title="Get in touch"
 									className="text-base font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-gray-900"
@@ -82,7 +82,7 @@ const Navbar = () => {
 							<li>
 								<NavLink
 									to="/login"
-									className="inline-flex items-center justify-center h-10 px-8 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none"
+									className="inline-flex items-center justify-center h-10 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none"
 									aria-label="log in"
 									title="log in"
 								>
@@ -131,7 +131,7 @@ const Navbar = () => {
 										<div className="flex items-center justify-between mb-4">
 											<div className="block mx-auto">
 												<NavLink
-													to="/"
+													to="/home"
 													aria-label="Luxury Living"
 													title="Luxury Living"
 													className="inline-flex items-center"
@@ -210,7 +210,7 @@ const Navbar = () => {
 												</li>
 												<li className="py-3">
 													<NavLink
-														to="/"
+														to="/home"
 														aria-label="Get in touch"
 														title="Get in touch"
 														className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-gray-900"
@@ -232,7 +232,7 @@ const Navbar = () => {
 												<li>
 													<NavLink
 														to="/login"
-														className="inline-flex items-center justify-center w-3/4 h-10 px-6 font-medium tracking-wide text-white transition duration-200 rounded bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none"
+														className="inline-flex items-center justify-center w-3/4 h-10 px-5 font-medium tracking-wide text-white transition duration-200 rounded bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none"
 														aria-label="log in"
 														title="log in"
 													>

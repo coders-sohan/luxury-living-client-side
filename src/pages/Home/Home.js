@@ -1,4 +1,5 @@
 import React from "react";
+import FAQs from "../../components/FAQs/FAQs";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import ContactSection from "./ContactSection";
@@ -16,6 +17,7 @@ const Home = () => {
 			<ProjectsSection />
 			<ServicesSection />
 			<Testimonial />
+			<FAQs />
 			<ContactSection />
 			<Footer />
 		</>

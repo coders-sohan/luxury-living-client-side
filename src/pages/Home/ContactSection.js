@@ -75,37 +75,37 @@ const ContactSection = () => {
 							<div className="block xl:flex w-full flex-wrap justify-between mb-6">
 								<div className="w-2/4 max-w-xs mb-6 xl:mb-0">
 									<div className="flex flex-col">
-										<label
+										{/* <label
 											htmlFor="first_name"
 											className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
 										>
 											First Name
-										</label>
+										</label> */}
 										<input
 											required
 											id="first_name"
 											name="first_name"
 											type="text"
 											className="focus:outline-none focus:border focus:border-gray-800 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
-											placeholder
+											placeholder="First Name"
 										/>
 									</div>
 								</div>
 								<div className="w-2/4 max-w-xs xl:flex xl:justify-end">
 									<div className="flex flex-col">
-										<label
+										{/* <label
 											htmlFor="last_name"
 											className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
 										>
 											Last Name
-										</label>
+										</label> */}
 										<input
 											required
 											id="last_name"
 											name="last_name"
 											type="email"
 											className="focus:outline-none focus:border focus:border-gray-800 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
-											placeholder
+											placeholder="Last Name"
 										/>
 									</div>
 								</div>
@@ -113,56 +113,56 @@ const ContactSection = () => {
 							<div className="block xl:flex w-full flex-wrap justify-between mb-6">
 								<div className="w-2/4 max-w-xs mb-6 xl:mb-0">
 									<div className="flex flex-col">
-										<label
+										{/* <label
 											htmlFor="email"
 											className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
 										>
-											Email
-										</label>
+											Your Email
+										</label> */}
 										<input
 											required
 											id="email"
 											name="email"
 											type="text"
 											className="focus:outline-none focus:border focus:border-gray-800 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
-											placeholder
+											placeholder="Your Email"
 										/>
 									</div>
 								</div>
 								<div className="w-2/4 max-w-xs xl:flex xl:justify-end">
 									<div className="flex flex-col">
-										<label
+										{/* <label
 											htmlFor="phone"
 											className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2"
 										>
-											Phone
-										</label>
+											Your Phone Number
+										</label> */}
 										<input
 											required
 											id="phone"
 											name="phone"
 											type="email"
 											className="focus:outline-none focus:border focus:border-gray-800 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
-											placeholder
+											placeholder="Your Phone Number"
 										/>
 									</div>
 								</div>
 							</div>
 							<div className="w-full mt-6 pb-2">
 								<div className="flex flex-col">
-									<label
+									{/* <label
 										className="text-sm font-semibold text-gray-800 mb-2"
 										htmlFor="message"
 									>
-										Message
-									</label>
+										Your Message
+									</label> */}
 									<textarea
-										placeholder
 										name="message"
 										className="border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-gray-800"
 										rows={8}
 										id="message"
 										defaultValue={""}
+										placeholder="Your Message"
 									/>
 								</div>
 								<button

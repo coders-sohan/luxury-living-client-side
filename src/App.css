@@ -1,3 +1,8 @@
-.single-service:hover{
+.single-service:hover {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	transform: translateY(-1px);
+}
+
+.single-question{
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }

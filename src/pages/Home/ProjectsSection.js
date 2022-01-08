@@ -5,7 +5,7 @@ const ProjectsSection = () => {
 	const [projects, setProjects] = useState([]);
 
 	useEffect(() => {
-		fetch("http://localhost:5000/projects")
+		fetch("https://mysterious-beyond-20514.herokuapp.com/projects")
 			.then((res) => res.json())
 			.then((data) => setProjects(data.slice(0, 3)));
 	}, []);
