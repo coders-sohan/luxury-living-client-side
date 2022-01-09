@@ -10,12 +10,12 @@ const Question = ({ title, info }) => {
 				onClick={() => setExpanded(!expanded)}
 				className="flex justify-between p-5 my-5 rounded-md single-question cursor-pointer transition duration-300 ease-in-out hover:text-gray-600"
 			>
-				<h4 className="text-xl">{title}</h4>
-				<button className=" text-gray-700">
+				<h4 className="text-base md:text-lg lg:text-2xl">{title}</h4>
+				<button className="text-gray-700 text-xl md:text-2xl lg:text-3xl">
 					{expanded ? (
-						<AiOutlineMinus size={26} />
+						<AiOutlineMinus />
 					) : (
-						<AiOutlinePlus size={26} />
+						<AiOutlinePlus />
 					)}
 				</button>
 			</div>

@@ -87,9 +87,9 @@ const Navbar = () => {
 									title="log in"
 								>
 									<span>Log in</span>
-									<span className="mt-1 ml-2">
+									{/* <span className="mt-1 ml-2">
 										<i className="fas fa-sign-in-alt"></i>
-									</span>
+									</span> */}
 								</NavLink>
 							</li>
 							{/* <li>
@@ -237,9 +237,9 @@ const Navbar = () => {
 														title="log in"
 													>
 														<span>Log in</span>
-														<span className="mt-1 ml-2">
+														{/* <span className="mt-1 ml-2">
 															<i className="fas fa-sign-in-alt"></i>
-														</span>
+														</span> */}
 													</NavLink>
 												</li>
 											</ul>
