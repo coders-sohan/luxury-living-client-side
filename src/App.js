@@ -4,6 +4,7 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import Home from "./pages/Home/Home";
+import Login from "./pages/Login/Login";
 import Projects from "./pages/Projects/Projects";
 import Services from "./pages/Services/Services";
 
@@ -29,6 +30,9 @@ function App() {
 					</Route>
 					<Route path="/contact">
 						<Contact />
+					</Route>
+					<Route path="/login">
+						<Login />
 					</Route>
 					<Route exact path="*">
 						<ErrorPage />
